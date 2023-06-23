@@ -2,6 +2,8 @@ p, h1, h2, h3, h4, h5, h6, button {
     font-family: "Roboto", serif;
 }
 
+*{margin: 0px;padding: 0px;}
+
 body {
     background-color: #f5f5f9;
     background-size: cover;
@@ -42,12 +44,6 @@ body {
     padding: 10px;
 }
 
-/*.navbar {*/
-/*    background-color: #1C539F;*/
-/*    padding: 10px;*/
-/*    color: #fff;*/
-/*    width: 100%;*/
-/*}*/
 .nav-content .logo-touch-target {
     display: inline-flex;
     height: 60%;
@@ -82,6 +78,7 @@ body {
     text-align: center;
     height: 320px;
     margin-bottom: 50px;
+    vertical-align: top;
 }
 
 .profile h1 {

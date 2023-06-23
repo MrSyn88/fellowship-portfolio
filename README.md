@@ -19,13 +19,13 @@ For each of these tasks, you should create an [Issue](https://docs.github.com/en
 - [x] Add a photo of yourself to the website
 - [x] Add an "About youself" section to the website.
 - [ ] Add your previous work experiences
-- [ ] Add your hobbies (including images)
-- [ ] Add your current/previous education
+- [x] Add your hobbies (including images)
+- [x] Add your current/previous education
 - [ ] Add a map of all the cool locations/countries you visited
 
 ### Flask Tasks
 - [x] Get your Flask app running locally on your machine using the instructions below.
-- [ ] Add a template for adding multiple work experiences/education/hobbies using [Jinja](https://jinja.palletsprojects.com/en/3.0.x/api/#basics)
+- [x] Add a template for adding multiple work experiences/education/hobbies using [Jinja](https://jinja.palletsprojects.com/en/3.0.x/api/#basics)
 - [x] Create a new page to display hobbies.
 - [x] Add a menu bar that dynamically displays other pages in the app
 
@@ -35,8 +35,11 @@ For each of these tasks, you should create an [Issue](https://docs.github.com/en
 You need to do all your progress here.
 
 - Added html files for different pages
-- Added routing to go navigate between pages
+- Added routing to go navigate between pages with jinja
 - Added a navbar to quickly navigate between pages
+- Added photo and about myself
+- Added education
+- Added Hobbies
 
 ## Installation
 

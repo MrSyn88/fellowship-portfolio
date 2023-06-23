@@ -20,9 +20,11 @@ def about():
 def hobbies():
     return render_template('hobbies.html', title="Hobbies", url=os.getenv("URL"))
 
+
 @app.route('/education')
 def education():
     return render_template('education.html', title="Education", url=os.getenv("URL"))
+
 
 @app.route('/projects')
 def projects():

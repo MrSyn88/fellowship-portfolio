@@ -123,3 +123,25 @@ body {
     font-size: 50px;
     font-weight: 700;
 }
+
+.block {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.block img {
+    border-radius: 12.5%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 20px;
+}
+
+.block .text {
+    padding: 100px;
+}

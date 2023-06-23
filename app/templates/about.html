@@ -17,9 +17,38 @@
     <link lang="sass" rel="stylesheet" href="./static/styles/main.css">
     <link rel="icon" href="./static/img/favicon.ico" type="image/x-icon" />
     <title>{{ title }}</title>
+{#    <style>#}
+{#    #map {#}
+{#      height: 400px;#}
+{#      width: 100%;#}
+{#    }#}
+{#  </style>#}
 </head>
 
 <body>
+{#    <script>#}
+{#    function initMap() {#}
+{#        const locations = [#}
+{#            {lat: 40.7128, lng: -74.0060, name: 'New York City, USA'},#}
+{#            {lat: 48.8566, lng: 2.3522, name: 'Paris, France'},#}
+{#            {lat: -33.8688, lng: 151.2093, name: 'Sydney, Australia'},#}
+{#            {lat: 51.5074, lng: -0.1278, name: 'London, UK'},#}
+{#            // Add more locations here#}
+{#        ];#}
+{##}
+{#        const map = new google.maps.Map(document.getElementById('map'), {#}
+{#            zoom: 2,#}
+{#            center: {lat: 0, lng: 0}#}
+{#        });#}
+{#        for (let i = 0; i < locations.length; i++) {#}
+{#          const marker = new google.maps.Marker({#}
+{#              position: locations[i],#}
+{#              map: map,#}
+{#              title: locations[i].name#}
+{#          });#}
+{#      }#}
+{#    }#}
+{#    </script>#}
     <header class="nav-bar">
         <div class="nav-content">
             <a href="/">
@@ -41,12 +70,23 @@
     </div>
 
     <div class="block">
-        <div class="image">
-            <img width="500%" hegiht="500%" src="./static/img/portrait.svg">
-        </div>
+        <img width="50%" height="50%" src="./static/img/portrait.svg">
         <div class="text">
             <h1>
                 About Me
+            </h1>
+            <h3>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores illum omnis, perspiciatis nisi accusantium
+                libero ut! Vitae voluptates deleniti, dignissimos repellendus, alias pariatur eos dolorum vero expedita
+                illum eum quod?
+            </h3>
+        </div>
+    </div>
+    <div class="block">
+        <img width="50%" height="50%" src="./static/img/work.jpg">
+        <div class="text">
+            <h1>
+                My Past Work Experience
             </h1>
             <h3>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores illum omnis, perspiciatis nisi accusantium

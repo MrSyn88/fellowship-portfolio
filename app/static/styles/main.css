@@ -77,7 +77,8 @@ body {
 .profile {
     background-color: #1d539f !important;
     text-align: center;
-    height: 320px;
+    height: auto;
+    padding: 15px;
     margin-bottom: 50px;
     vertical-align: top;
 }
@@ -131,9 +132,13 @@ body {
     justify-content: center;
     margin-left: 25px;
     margin-right: 25px;
+    border: solid 1px #eee;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 5px #e7e6e6;
 }
+
 .block img {
-    border-radius: 20%;
+    border-radius: 30px;
     max-width: 100%;
     max-height: 100%;
     padding: 20px;

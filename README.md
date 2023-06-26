@@ -18,10 +18,10 @@ For each of these tasks, you should create an [Issue](https://docs.github.com/en
 ### Portfolio Tasks
 - [x] Add a photo of yourself to the website
 - [x] Add an "About youself" section to the website.
-- [ ] Add your previous work experiences
+- [x] Add your previous work experiences
 - [x] Add your hobbies (including images)
 - [x] Add your current/previous education
-- [ ] Add a map of all the cool locations/countries you visited
+- [x] Add a map of all the cool locations/countries you visited
 
 ### Flask Tasks
 - [x] Get your Flask app running locally on your machine using the instructions below.
@@ -40,6 +40,9 @@ You need to do all your progress here.
 - Added photo and about myself
 - Added education
 - Added Hobbies
+- Added work experience
+- Added map
+- Cleaned up UI
 
 ## Installation
 
